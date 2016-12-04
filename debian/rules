@@ -17,4 +17,4 @@ SUBSTVARS=
 
 override_dh_clean:
 	dh_clean
-	sed '/setup\.cfg/d' -i django_versionfield2.egg-info/SOURCES.txt
+	test -f django_versionfield2.egg-info/SOURCES.txt && sed '/setup\.cfg/d' -i django_versionfield2.egg-info/SOURCES.txt || true

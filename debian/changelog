@@ -1,3 +1,9 @@
+django-versionfield2 (0.5-0.1aroth4) yakkety; urgency=medium
+
+  * fixed build issue caused by missing SOURCES.txt
+
+ -- Andreas Roth <aroth@arsoft-online.com>  Sun, 04 Dec 2016 17:00:30 +0100
+
 django-versionfield2 (0.5-0.1aroth3) yakkety; urgency=medium
 
   * require setuptools
