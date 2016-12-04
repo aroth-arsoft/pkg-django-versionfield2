@@ -1,3 +1,9 @@
+django-versionfield2 (0.5-0.1aroth2) yakkety; urgency=medium
+
+  * fixed build issues
+
+ -- Andreas Roth <aroth@arsoft-online.com>  Sun, 04 Dec 2016 16:11:13 +0100
+
 django-versionfield2 (0.5-0.1aroth1) yakkety; urgency=medium
 
   * initial release

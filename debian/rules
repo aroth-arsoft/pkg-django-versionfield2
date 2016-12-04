@@ -14,3 +14,7 @@ SUBSTVARS=
 
 %:
 	dh $@ --with python2,python3 --buildsystem=pybuild
+
+override_dh_clean:
+	dh_clean
+	sed '/setup\.cfg/d' -i django_versionfield2.egg-info/SOURCES.txt
